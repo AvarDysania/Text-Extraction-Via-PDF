@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF to Text Converter</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body background="sticky_image.jpg">
+   
+    <fieldset>    
+        <h1>PDF to Text Converter</h1>
+    <form action="{{ url_for('convert') }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="pdf_file" accept=".pdf" required>
+        <button type="submit">Convert</button>
+    </form>
+
+    </fieldset>
+
+</body>
+</html>

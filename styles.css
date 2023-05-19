@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  padding: 50px;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220403/pngtree-cute-paper-note-background-design-image_1071000.jpg);
+  background-size:cover;
+  
+
+}
+
+
+h1 {
+  color:black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2cm;
+}
+
+form {
+  margin-top: 30px;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 10px auto;
+}
+
+button[type="submit"] {
+  padding: 15px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  position: absolute; top:7cm;right: 10cm;
+}
+fieldset{
+  position: absolute;top:4.3cm; right: 7cm;
+  background: linear-gradient(rgba(168, 123, 56, 0.952),rgba(20, 20, 20, 0.3));
+  display: inline-block;
+  border: transparent;
+}
